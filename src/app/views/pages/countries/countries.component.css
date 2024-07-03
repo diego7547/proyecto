@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 100vw;
+}
+
+.form-body
+{
+  padding: .1px;
+  max-width: 500px;
+  min-width: 600px;
+  margin: 0 auto;
+
+
+}
+
+mat-form-field{
+  width: 100%;
+}
+
+app-card
+{
+  top: 70px;
+  left: 0;
+  z-index: 2;
+}
+
+.btn-filter{
+  top: 0;
+  right: 0px;
+  overflow: hidden;
+}
+
+button{
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+  padding-top: 13px;
+
+}
+
+button:hover{
+  color: azure;
+  background-color: rgb(0, 94, 255);
+}
+

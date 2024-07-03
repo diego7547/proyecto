@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button-img:hover{
+    background-color: #0800ea;
+}
+
+.sidenav {
+    height: calc(100vh - 120px);
+
+
+    padding: .1px;
+
+
+
+
+}
+
+.nav-items{
+  margin-top: 80px;
+   position: relative;
+
+}
+
+.nav-items-link{
+  margin-top: 20px;
+
+}
+.nav-button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+
+}
+mat-icon{
+  position: absolute;
+  left: 20px;
+  top: 12px;
+ }
+
+.logo-container{
+
+  margin-top: 40px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}

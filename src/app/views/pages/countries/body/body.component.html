@@ -1,0 +1,49 @@
+<mat-card class="card-body">
+  <mat-card-header>
+    <mat-card-title>
+      <img mat-card-image src="https://cdn.audleytravel.com/2799/2000/79/411754-plaza-de-armas-lima-peru.jpg" alt="Photo of a Shiba Inu" >
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+ <div class="title">
+  <img [src]="pais.flat" alt="">
+  <div class="country-data">
+    <h3>{{pais.name}}</h3>
+    <p>{{pais.continent}}</p>
+ </div>
+ </div>
+ <div>
+    <ul>
+      <li>
+        <h3>Captial:  </h3>
+        <span>
+          {{pais.capital}}
+        </span>
+      </li>
+      <li>
+        <h3>Languaje: </h3>
+        <span>
+          {{lenguaje.name}}
+        </span>
+      </li>
+      <li>
+        <h3>Population: </h3>
+      </li>
+      <li>
+        <h3>Currency: </h3>
+        <span>
+          {{pais.currency}}
+        </span>
+      </li>
+      <li>
+        <h3>region: </h3>
+        <span >
+          {{pais.capital}}
+        </span>
+      </li>
+    </ul>
+ </div>
+
+  </mat-card-content>
+</mat-card>
+

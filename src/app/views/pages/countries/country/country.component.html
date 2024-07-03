@@ -1,0 +1,20 @@
+
+
+
+<div class="countries" *ngFor="let continente of dataCountries">
+
+  <mat-card class="country" *ngFor="let paises of continente.country">
+
+    <img mat-card-image src="https://cdn.audleytravel.com/2799/2000/79/411754-plaza-de-armas-lima-peru.jpg" alt="Photo of a Shiba Inu" height="150px">
+    <div class="country-content ">
+      <button   (click)="enviarDatos(paises)">
+        <img [src]="paises.flat" alt="">
+        <div class="country-data">
+          <h3>{{paises.name}}</h3>
+          <p>{{continente.continent}}</p>
+        </div>
+      </button>
+    </div>
+  </mat-card>
+</div>
+

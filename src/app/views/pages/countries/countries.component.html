@@ -1,0 +1,27 @@
+
+<div class="row">
+
+  <form class="position-relative"  [formGroup]="formData" (ngSubmit)="enviar()">
+    <div class="form-body position-relative">
+      <mat-form-field >
+        <mat-label>País</mat-label>
+        <input   matInput placeholder="Escribe el pais que quieres ver"  formControlName="pais" (focus)="isEstado()" (input)="filtro()">
+      </mat-form-field>
+      <div class="position-absolute btn-filter">
+        <button mat-icon-button>
+            <mat-icon>search</mat-icon>
+        </button>
+      </div>
+      <app-card [hidden]="estado" (estado)="obtenerEstado($event)" (continents)="getContinent($event)" class="position-absolute"></app-card>
+    </div>
+  </form>
+
+  <div class="position-relative ">
+    <div class="countries">
+      <app-country [continentesFiltro]="continentes" [paisesFiltro]="pais"></app-country>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+

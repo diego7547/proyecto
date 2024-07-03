@@ -1,0 +1,64 @@
+.card-body {
+  max-width: 400px;
+  background-size: cover;
+}
+
+ul
+{
+  list-style: none;
+  li{
+    h3{
+      font-size: 1.5rem;
+      color: rgb(80, 95, 213);
+      font-weight: 11px;
+    }
+  }
+}
+
+mat-card-header{
+  width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+
+  img{
+    width: 100%;
+  }
+  }
+
+.title
+{
+  padding: 10px;
+  display: flex;
+  max-width: 100%;
+  gap: 1.4rem;
+  img{
+    max-width: 100px;
+  }
+}
+
+.country-data
+{
+  margin-top: 3px;
+  width: 100%;
+  display: inline;
+  h3{
+
+    font-size: 1.3rem;
+    margin: 0;
+    color: rgb(73, 129, 225);
+  }
+  p{
+    margin-top: 3px;
+    color: grey;
+  }
+}
+
+
+li
+{
+  h3{
+    display: inline;
+  }
+  margin-top: 20px;
+}

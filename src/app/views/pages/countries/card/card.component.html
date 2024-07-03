@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-header  >
+    <mat-card-title-group>
+      <mat-card-subtitle><p>Filtrar por continente</p></mat-card-subtitle>
+      <button class="button" type="button" (click)="filtroEnable()">limpiar</button>
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="img-continentes">
+      <div class="continentes" *ngFor="let continentes of dataContinentes;let i = index">
+        <button type="button" [ngClass]="continentes.estado ?'active-button':''" (click)="activeContinente(i)">
+          <img mat-card-lg-image [src]="continentes.data"   >
+        </button>
+        <span>{{continentes.continente}}</span>
+      </div>
+    </div>
+
+
+  </mat-card-content>
+</mat-card>
