@@ -7,16 +7,5 @@ import { Apollo } from 'apollo-angular';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-/*
-  posts:any[] = [];
-  errors:any;
 
-  ngOnInit(): void {
-  this.apollo.watchQuery({
-    query:GET_CONTINENTS
-  }).valueChanges.subscribe( r => console.log(r.data));
-  }
-
-
-  constructor(private apollo:Apollo){} */
 }
